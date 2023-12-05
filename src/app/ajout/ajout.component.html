@@ -1,0 +1,16 @@
+
+<h3>ajout d un employe</h3>
+<div>
+   
+    <label for="name">Name:</label>
+    <input type="text" [(ngModel)]="newEmployee.name" >
+  
+    <label for="status">Status:</label>
+    <input type="text"  [(ngModel)]="newEmployee.status" >
+    <label for="email">Email:</label>
+    <input type="text"  [(ngModel)]="newEmployee.email" >
+    <label for="phone">Phone:</label>
+    <input type="text"  [(ngModel)]="newEmployee.telephone" ><br>
+    
+    <button type="submit" (click)="submitForm()" class="btn btn-primary">Add Employee</button>
+  <div>
